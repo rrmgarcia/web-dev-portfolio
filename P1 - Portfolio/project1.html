@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./project1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <title>Ronald Raven Garcia</title>
+</head>
+
+<body>
+    <div class="flex-container">
+        <div class="header">
+            <a href="#">
+                <img id="logo" src="images/rgee-high-resolution-logo-black-on-transparent-background.png">
+            </a>
+            <input class="side-menu" type="checkbox" id="side-menu" />
+            <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+            <nav class="nav">
+                <ul class="menu">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#myprojects">Projects</a></li>
+                    <li><a href="#resume">My Resume</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="intro">
+            <img id="pixel-me" src="images/pixel-me.png" />
+            <h2 id="intro-text">Hello! I am Ronald Raven.
+                <br>
+                I am a Software Developer.
+            </h2>
+        </div>
+
+        <div id="about" class="about-me">
+            <h1>ABOUT ME</h1>
+            <p id="about-me-p">I'm a former seafarer who decided to pursue a new career in the Tech Industry.
+                I'm currently working as an IT staff for a Construction Company in Quezon City.
+                I'm passionate about learning new skills that would help me grow as a person.
+                I'm a hard-worker, and try my best to learn as much as I can.
+                My goal is to be a successful Full-Stack Web Developer.
+                <br><br>
+                Outside of work, you'll find me in the court shooting some hoops, at my desk playing online games,
+                or just at home spending time with my two beautiful kids.
+            </p>
+        </div>
+
+        <div class="skills">
+            <h1>SKILLS</h1>
+            <div class="skills-list">
+                <div class="category">
+                    <h2>Front-end</h2>
+                    <div class="skill">
+                        <img class="img-skill" src="images/html.png" alt="html">
+                    </div>
+                    <div class="skill">
+                        <img class="img-skill" src="images/css.png" alt="css">
+                    </div>
+                    <div class="skill">
+                        <img class="img-skill" src="images/js.png" alt="javascript">
+                    </div>
+                    <div class="skill">
+                        <img class="img-skill" src="images/react.png" alt="react">
+                    </div>
+                </div>
+                <div class="category">
+                    <h2>Back-end</h2>
+                    <div class="skill">
+                        <img class="img-skill" src="images/expressjs.png" alt="expressjs">
+                    </div>
+                    <div class="skill">
+                        <img class="img-skill" src="images/nodejs.png" alt="nodejs">
+                    </div>
+                </div>
+                <div class="category">
+                    <h2>Database</h2>
+                    <div class="skill">
+                        <img class="img-skill" src="images/mongodb.png" alt="mongodb">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="myprojects" class="my-projects">
+            <h1>PROJECTS</h1>
+            <div class="project-list">
+                <div class="project">
+                    <h3 class="project-title">Project 1</h3>
+                    <img class="img-project coming-soon" src="images/coming-soon.gif" alt="coming soon!">
+                    <p class="project-description">Coming soon!</p>
+                </div>
+                <div class="project">
+                    <h3 class="project-title">Project 2</h3>
+                    <img class="img-project coming-soon" src="images/coming-soon.gif" alt="coming soon!">
+                    <p class="project-description">Coming soon!</p>
+                </div>
+                <div class="project">
+                    <h3 class="project-title">Project 3</h3>
+                    <img class="img-project coming-soon" src="images/coming-soon.gif" alt="coming soon!">
+                    <p class="project-description">Coming soon!</p>
+                </div>
+                <div class="project">
+                    <h3 class="project-title">Project 4</h3>
+                    <img class="img-project coming-soon" src="images/coming-soon.gif" alt="coming soon!">
+                    <p class="project-description">Coming soon!</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="resume" class="my-resume">
+            <h1>MY RESUME</h1>
+            <button id="button" type="button">
+                <a href="resume/resume.pdf" target="_blank">View My Resume
+                </a>
+            </button>
+        </div>
+
+        <div id="contact" class="contact-me">
+            <h1>GET IN TOUCH</h1>
+            <form action="mailto:ronaldravengarcia@gmail.com" method="post" enctype="text/plain" autocomplete="on">
+                <label for="name">Full Name:</label><br>
+                <input type="text" id="name" name="name" placeholder="Type in your full name..."
+                    autocomplete="on" /><br>
+                <label for="email">E-Mail Address:</label><br>
+                <input type="email" id="email" name="email" placeholder="Type in your e-mail address"
+                    autocomplete="on" /><br>
+                <label for="message">Message:</label><br>
+                <input type="text" id="message" name="message" placeholder="Type in your message..." /><br><br>
+                <input id="submit" type="submit" value="Send Message" />
+            </form>
+            <div class="box">
+                <h4>Contact Details</h4>
+                <p>Location: Quezon City, Philippines</p>
+                <p>Mobile: (+63) 908 635 9492</p>
+                <p>E-mail: ronaldravengarcia@gmail.com</p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>© Ronald Raven Garcia</p>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/ronald-raven-garcia-b8477716a/" target="_blank"
+                        class="fa fa-linkedin"></a></li>
+                <li><a href="https://gitlab.com/rrmgarcia" target="_blank" class="fa fa-gitlab"></a></li>
+                <li><a href="https://www.instagram.com/rrmgarcia/" target="_blank" class="fa fa-instagram"></a></li>
+                <li><a href="https://www.facebook.com/rrmg627/" target="_blank" class="fa fa-facebook"></a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
